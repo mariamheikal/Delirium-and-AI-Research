@@ -19,11 +19,11 @@ The following 10 tables, from the MIMIC-III database, are used to extract demogr
 9. DIAGNOSIS ICD
 10. D ICD DIAGNOSES
 
- Markup : *To **replicate** this dataset, repeat the steps outlined in the aforementioned notebook.
-*To **extract more clinical features**, we recommend following the text similarity technique outlined in the manuscript in order to add additional features and reduce the percentage of missing values within the features.
-*To **derive** a dataset for a **different disease** or **disorder**, replace the delirium ICD-9 codes in the notebook with the corresponding ICD-9 codes.
+ *To **replicate** this dataset, repeat the steps outlined in the aforementioned notebook.
+ *To **extract more clinical features**, we recommend following the text similarity technique outlined in the manuscript in order to add additional features and reduce the percentage of missing values within the features.
+ *To **derive** a dataset for a **different disease** or **disorder**, replace the delirium ICD-9 codes in the notebook with the corresponding ICD-9 codes.
 
 ### References
 
-[1] Alistair EW Johnson, Tom J Pollard, Lu Shen, Li-wei H Lehman, Mengling Feng, Mohammad Ghassemi, Benjamin Moody, Peter Szolovits, Leo Anthony Celi, and Roger G Mark. Mimic-iii, a freely accessible critical care database. Scientific data, 3(1):1–9, 2016.
+[1] Alistair EW Johnson, Tom J Pollard, Lu Shen, Li-wei H Lehman, Mengling Feng, Mohammad Ghassemi, Benjamin Moody, Peter Szolovits, Leo Anthony Celi, and Roger G Mark. Mimic-iii, a freely accessible critical care database. Scientific data, 3(1):1–9, 2016.  <br />
 [2] Ary L Goldberger, Luis AN Amaral, Leon Glass, Jeffrey M Hausdorff, Plamen Ch Ivanov, Roger G Mark, Joseph E Mietus, George B Moody, Chung-Kang Peng, and H Eugene Stanley. Physiobank, physiotoolkit, and physionet: components of a new research resource for complex physiologic signals. circulation, 101(23):e215–e220, 2000.
