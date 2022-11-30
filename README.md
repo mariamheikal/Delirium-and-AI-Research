@@ -19,9 +19,9 @@ The following 10 tables, from the MIMIC-III database, are used to extract demogr
 9. DIAGNOSIS ICD
 10. D ICD DIAGNOSES
 
-To **replicate** this dataset, repeat the steps outlined in the aforementioned notebook.  <br />
-To **extract more clinical features**, we recommend following the text similarity technique outlined in the manuscript in order to add additional features and reduce the percentage of missing values within the features.  <br />  
-To **derive** a dataset for a **different disease** or **disorder**, replace the delirium ICD-9 codes in the notebook with the corresponding ICD-9 codes.
+*To **replicate** this dataset, repeat the steps outlined in the aforementioned notebook.  <br />
+*To **extract more clinical features**, we recommend following the text similarity technique outlined in the manuscript in order to add additional features and reduce the percentage of missing values within the features.  <br />
+*To **derive** a dataset for a **different disease** or **disorder**, replace the delirium ICD-9 codes in the notebook with the corresponding ICD-9 codes.
 
 ### References
 
