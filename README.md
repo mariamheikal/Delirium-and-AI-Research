@@ -5,7 +5,9 @@ Delirium is an acute state of brain failure characterized by unexpected disorien
 ## ICU Delirium MIMIC-III Derived Dataset
 The ICU Delirium MIMIC-III Dataset Notebook includes a comprehensive derivation process for a novel dataset aimed at investigating the incidence of delirium in intensive care units (ICUs).
 
-The following 10 tables are used to extract demographic and clinical information regarding the patients. All tables are provided as CSV files.
+MIMIC-III database [1] is accessible through PhysioNetWorks, a restricted component of PhysioNet [2], after submitting a request that requires completing a recognized course in protecting human research participants that includes Health Insurance Portability and Accountability Act (HIPAA) requirements and signing a data use agreement that outlines appropriate data usage and security standards and prohibits attempts to identify individual patients.
+
+The following 10 tables, from the MIMIC-III database, are used to extract demographic and clinical information regarding the patients. All tables are provided as CSV files.
 1. PATIENTS
 2. ADMISSIONS
 3. ICUSTAYS
@@ -17,6 +19,11 @@ The following 10 tables are used to extract demographic and clinical information
 9. DIAGNOSIS ICD
 10. D ICD DIAGNOSES
 
-To replicate this dataset, repeat the steps outlined in the aforementioned notebook.
-To extract more clinical features, we recommend following the text similarity technique outlined in the manuscript in order to add additional features and reduce the percentage of missing values within the features.
-To generate a dataset for a different disease or disorder, replace the delirium ICD-9 codes in the notebook with the corresponding ICD-9 codes.
+To **replicate** this dataset, repeat the steps outlined in the aforementioned notebook.
+To **extract more clinical features**, we recommend following the text similarity technique outlined in the manuscript in order to add additional features and reduce the percentage of missing values within the features.
+To **derive** a dataset for a **different disease** or **disorder**, replace the delirium ICD-9 codes in the notebook with the corresponding ICD-9 codes.
+
+### References
+
+[1] Alistair EW Johnson, Tom J Pollard, Lu Shen, Li-wei H Lehman, Mengling Feng, Mohammad Ghassemi, Benjamin Moody, Peter Szolovits, Leo Anthony Celi, and Roger G Mark. Mimic-iii, a freely accessible critical care database. Scientific data, 3(1):1–9, 2016.
+[2] Ary L Goldberger, Luis AN Amaral, Leon Glass, Jeffrey M Hausdorff, Plamen Ch Ivanov, Roger G Mark, Joseph E Mietus, George B Moody, Chung-Kang Peng, and H Eugene Stanley. Physiobank, physiotoolkit, and physionet: components of a new research resource for complex physiologic signals. circulation, 101(23):e215–e220, 2000.
