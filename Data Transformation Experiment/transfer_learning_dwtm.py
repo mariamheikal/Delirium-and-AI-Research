@@ -74,7 +74,6 @@ from sklearn.datasets import fetch_openml
 
 
 # Data augmentation and normalization for training
-# Just normalization/content/content/HeartDiseasesdataset for validation
 data_transforms = {
     'train': transforms.Compose([
         transforms.Resize(224),
@@ -228,7 +227,6 @@ class F1_Loss(nn.Module):
 
 f1_loss = F1_Loss().cuda()
 
-#model_ft=models.googlenet(weights=torchvision.models.GoogLeNet_Weights.DEFAULT)
 
 model_ft1 = models.googlenet(pretrained = True).to(device)
 model_ft=torch.load('/home/mas177/thesis_experiments/TL_MODEL_MIMIC_F1_LOSS')
